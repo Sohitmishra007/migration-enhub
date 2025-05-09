@@ -33,7 +33,7 @@ def get_gcp_sql_connection():
     try:
         conn = mysql.connector.connect(
             host='34.66.32.63',     # GCP Cloud SQL public IP
-            user='enhubtask',       # Your DB user
+            user='root',       # Your DB user
             password='enhub123',    # Your DB password
             database='root-enhub'   # Your DB name
         )
