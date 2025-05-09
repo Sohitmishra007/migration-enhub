@@ -35,7 +35,7 @@ def get_gcp_sql_connection():
             host='34.66.32.63',     # GCP Cloud SQL public IP
             user='sohit',       # Your DB user
             password='enhub123',    # Your DB password
-            database='enhubtask    # Your DB name
+            database='enhubtask'    # Your DB name
             table ='enhub'
         )
         logging.info("Connected to Cloud SQL successfully")
